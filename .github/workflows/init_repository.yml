@@ -27,7 +27,7 @@ jobs:
             --dependencies=web
           
       - name: Unzip Spring project
-        run: unzip sproutproject.zip
+        run: unzip -o sproutproject.zip
 
 #      - name: Remove initialization workflow
 #        run: rm .github/workflows/init_repository.yml
